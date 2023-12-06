@@ -47,13 +47,13 @@ export default function Sidebar() {
 
   return (
     <aside
-      className={`absolute left-0 top-0 z-9999 flex h-screen w-72.5 flex-col overflow-y-hidden bg-black duration-300 ease-linear lg:static lg:translate-x-0
+      className={`absolute left-0 top-0 z-9999 flex h-screen w-42.5 flex-col overflow-y-hidden bg-black duration-300 ease-linear lg:static lg:translate-x-0
     ${sideBarOpen ? "translate-x-0" : "-translate-x-full"}
     `}
     >
       <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
-        <Link href={"/"} className="text-[40px] text-white">
-          Analytics
+        <Link href={"/"} className="text-[25px] text-white">
+          SMARTHOME
         </Link>
       </div>
       <div className="flex flex-col overflow-y-auto duration-300 ease-linear">

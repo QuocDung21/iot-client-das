@@ -7,8 +7,8 @@ const authOptions = {
   providers: [
     GoogleProvider({
       clientId:
-        "977343913580-83i2einc6e40pec56gknd2ejlf6pkar2.apps.googleusercontent.com",
-      clientSecret: "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",
+        "564675599962-48hhphmbng5hrnv8k9rpob1tuicmtr14.apps.googleusercontent.com",
+      clientSecret: "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",
     }),
   ],
   callbacks: {
